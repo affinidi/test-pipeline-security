@@ -1,0 +1,7 @@
+name: Security Testing
+
+jobs:
+  sonarcloud:
+    name: sonarcloud
+    uses: affinidi/pipeline-security/.github/workflows/security-scanners.yml@feat-sonarcloud
+    secrets: inherit
